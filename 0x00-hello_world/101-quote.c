@@ -1,9 +1,12 @@
 #include <stdio.h>
 #include <unistd.h>
+
 /**
  * main - program to print a line in the standard error
- * Return 1 (Success)
+ * code from Wahu
+ * Return 1
  */
+
 int main(void)
 {
 	write(2,
